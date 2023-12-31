@@ -15,11 +15,11 @@ Q) Why used ResNet?
 #### step 3) In identity block used the conv2D layer + BatchNormalization + ReLU activation function
 #### step 4) In convolutional block used the Conv2D layer in the sortcut path way + conv2D layer + BatchNormalization + ReLU activation function
 #### step 5) Building Your First ResNet Model (50 layers) 
-        # . stage 1) conv2D + BatchN + ReLU + MAXPUL
-        # . stage 2) Convolutional block + 2 * identity block
-        # . stage 3) Conolutional block + 3* identity block
-        # . stage 4) Conolutional block + 5*identity block
-        # . stage 5) Convolutional block + 2*identity block
+        . stage 1) conv2D + BatchN + ReLU + MAXPUL
+        . stage 2) Convolutional block + 2 * identity block
+        . stage 3) Conolutional block + 3* identity block
+        . stage 4) Conolutional block + 5*identity block
+        . stage 5) Convolutional block + 2*identity block
 #### step 6) Get the summary of the model , In which we get the parameters = 23,600,006 and Trainable params:=  23,546,886
 Non-trainable params:=  53,120
 #### step 7) Compile our model and used the adam optimizer and 0.0000015 learning rate .
