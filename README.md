@@ -2,8 +2,8 @@
 
 Q) Why used ResNet?
 
--> Addressing vanishing gradient problem (By Introducing the skip connection  that allow the gradient to bypass certain layers, mitigating the vanishing gradient problem and facilitating the training of very deep networks.
--> Ease of optimization 
+#### -> Addressing vanishing gradient problem (By Introducing the skip connection  that allow the gradient to bypass certain layers, mitigating the vanishing gradient problem and facilitating the training of very deep networks.
+#### -> Ease of optimization 
 -> Deeper networks(ResNet architectures can be significantly deeper than traditional networks without suffering from degradation issues, where accuracy saturates and then degrades rapidly as the network becomes deeper.)
 ->State-of-the-art performance
 -> Transfer learning
